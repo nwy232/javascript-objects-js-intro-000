@@ -1,15 +1,15 @@
 var playlist={
   Nicole:"I Love You"
-} 
+}
 
-function updatePlaylist(playlist,artist,title)
+function updatePlaylist(playlist,artistName,songTitle)
 {
-  playlist.artist:"title"
+  playlist.artistName:"songTitle"
   return playlist
 }
 
-function removeFromPlaylist(playlist,artist)
+function removeFromPlaylist(playlist,artistName)
 {
-  delete playlist.artist
+  delete playlist.artistName
   return playlist
 }
